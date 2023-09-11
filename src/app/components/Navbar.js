@@ -18,7 +18,7 @@ import NavbarItem from "./NavbarItem";
 
 export default function Navbar() {
   return (
-    <div className="flex justify-between  dark:bg-gray-600 bg-gray-200 lg:text-lg p-4 border border-black">
+    <div className="flex justify-between  dark:bg-teal-600 bg-gray-600 text-white lg:text-lg p-4 border border-black">
       <NavbarItem title="Trending" param="fetchTrending"  />
       <NavbarItem title="Top Rated" param="fetchTopRated" />
     </div>
