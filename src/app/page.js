@@ -27,19 +27,8 @@ export default async function Home({ searchParams }) {
   
   console.log(results);
   return (
-    <div>
+    <div className="">
       <Results results={results}/>
     </div>
   );
 }
-
-
-// import React from 'react'
-
-// export default function Home() {
-//   return (
-//     <div>
-      
-//     </div>
-//   )
-// }
