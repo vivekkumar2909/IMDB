@@ -1,4 +1,4 @@
-🎬 IMDb Clone
+# 🎥 Next.js IMDb Clone – Movie Explorer 
 
 
 
