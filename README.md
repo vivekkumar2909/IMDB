@@ -1,34 +1,104 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+🎬 IMDb Clone
 
-## Getting Started
 
-First, run the development server:
 
-```bash
+
+
+
+
+
+A modern IMDb Clone built with Next.js 13 (App Router), styled for a sleek movie-browsing experience, and deployed on Vercel.
+It fetches real-time movie data using the TMDB API.
+
+🌐 Live Demo
+
+🔗 View Live Site
+
+✨ Features
+
+🔎 Browse Movies – Fetches real-time movie data from TMDB.
+
+🎞 Trending / Top Rated Sections – Organized movie categories.
+
+🎨 Modern UI – Clean, responsive, and user-friendly design.
+
+🌙 Dark/Light Mode Support (if implemented).
+
+⚡ Optimized with Next.js – Fast rendering and image optimization.
+
+📱 Fully Responsive – Works on desktop, tablet, and mobile.
+
+🛠 Tech Stack
+
+Next.js 13 (App Router) – React framework for production
+
+React – Component-based UI
+
+Tailwind CSS – Styling (if you used it, otherwise replace with CSS/SCSS)
+
+TMDB API – Movie data source
+
+Vercel – Hosting & deployment
+
+🚀 Getting Started
+
+First, clone the repo and install dependencies:
+
+# Clone repository
+git clone https://github.com/vivekkumar2909/imdb-clone.git
+
+# Navigate to project folder
+cd imdb-clone
+
+# Install dependencies
+npm install
+# or
+yarn install
+# or
+pnpm install
+
+
+Run the development server:
+
 npm run dev
 # or
 yarn dev
 # or
 pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Then open http://localhost:3000
+ in your browser.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+⚙️ Environment Variables
 
-## Learn More
+Create a .env.local file in the root of your project and add your TMDB API key:
 
-To learn more about Next.js, take a look at the following resources:
+NEXT_PUBLIC_API_KEY=your_tmdb_api_key_here
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📸 Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+(Add screenshots of your IMDb Clone UI here — homepage, movie details, dark/light mode, etc. for better presentation)
 
-## Deploy on Vercel
+📚 Learn More
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Next.js Documentation
+ – learn about features and APIs
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Learn Next.js
+ – interactive Next.js tutorial
+
+TMDB API Docs
+ – movie data API
+
+📬 Contact
+
+👨‍💻 Vivek Kumar
+
+📧 Email: rajvivek620065@gmail.com
+
+💼 LinkedIn: linkedin.com/in/vivek-kumar-571b32242
+
+🌐 Portfolio: vivek-portfolio-kappa.vercel.app
+
+✨ Built with ❤️ using Next.js & TMDB API.
