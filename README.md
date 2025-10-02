@@ -12,8 +12,8 @@ It fetches real-time movie data using the TMDB API.
 
 🌐 Live Demo
 
-🔗 View Live Site
-
+🔗 View Live  : https://imdb-clone-swart-three.vercel.app/
+  
 ✨ Features
 
 🔎 Browse Movies – Fetches real-time movie data from TMDB.
